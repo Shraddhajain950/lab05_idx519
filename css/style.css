@@ -1,0 +1,44 @@
+h1 {
+ font-family: 'Inter', sans-serif;
+ font-weight: bold;
+}
+
+h1 {
+ color: blue;
+ text-align: center
+}
+
+table {
+  width: 95%;
+  margin: auto;
+  table-layout: fixed;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  border-spacing: 0px;
+}
+
+
+#planets td, #planets th {
+  border: 0.5px solid black;
+  padding: 8px;
+}
+#planets th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: blue;
+  color: white;
+}
+
+#planets tr:nth-child(even){background-color: #D3D3D3;
+    color: black; 
+}
+
+#planets tr:hover {background-color: orange;}
+
+	p {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  text-align: left;
+  margin-left: 50px
+	}
