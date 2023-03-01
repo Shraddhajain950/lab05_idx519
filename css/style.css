@@ -1,16 +1,14 @@
 body{
- background-color: #d4d4d4;
+ background-color: black;
 }
 
 h1 {
  font-family: 'Inter', sans-serif;
  font-weight: bold;
-}
-
-h1 {
- color: blue;
+ color: white;
  text-align: center
 }
+
 
 table {
   width: 95%;
@@ -21,11 +19,11 @@ table {
   border-spacing: 0px;
 }
 
-
-#planets td, #planets th {
+th, td{
   border: 0.5px solid black;
-  padding: 8px;
+  border-color: white;
 }
+
 #planets th {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -33,12 +31,12 @@ table {
   background-color: #5aa2dd;
   color: white;
 }
-#planets tr:nth-child(odd){background-color: white;
-    color: black; 
+#planets tr:nth-child(odd){background-color: #696969;
+    color: white; 
 }
 
-#planets tr:nth-child(even){background-color: #b7d7f0;
-    color: black; 
+#planets tr:nth-child(even){background-color: black;
+    color: white; 
 }
 
 #planets tr:hover {background-color: orange;}
@@ -47,6 +45,11 @@ table {
   font-family: 'Inter', sans-serif;
   font-size: 16px;
   text-align: left;
-  margin-left: 50px
+  margin-left: 50px;
+  color: white;
 	}
+	
+.footer_icon img {
+  float: left;
+}
 	
